@@ -334,12 +334,15 @@
 
     /* Hero stats: match header glass on video (dark translucent + blur) */
     .hero .stat{
-      background: rgba(0,0,0,.26);
+      max-width: 760px;
+      border-radius: var(--radius);
+      padding: 22px 22px;
+      background: rgba(0,0,0,.22);
       border: 1px solid rgba(255,255,255,.18);
-      box-shadow: 0 18px 44px rgba(0,0,0,.34);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-      color: rgba(255,255,255,.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      box-shadow: 0 18px 48px rgba(0,0,0,.38);
+      text-shadow: 0 2px 14px rgba(0,0,0,.55);
     }
     .hero .stat .t{color: rgba(255,255,255,.74);}
     .hero .stat .s{color: rgba(255,255,255,.62);}
